@@ -31,7 +31,7 @@ The title should be a text field, the content a text area while the label should
 
 6. Quick Link: Show a sidebar that will contain a list (toggle buttons) of all the labels. When a user clicks on a label, it will automatically filter out the notes assigned to that label. 
 
-Every detail above was designed using Java, Spring boot, Angular Technology.
+Every detail above was designed using Java, Spring boot,postgresSQL Angular Technology.
 
 Here is the postman collection below:
 
