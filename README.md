@@ -9,10 +9,10 @@ Tables were created in other to get this started and the tables are: User (user_
 Steps to profile an application:
 1.	You must have an applicationId and also a Role to have access below is sql example in profiling an application
   
-  a)	INSERT INTO application_info (appId,app_description, app_name, created)VALUES ('rs2', 'NoteTaking', 'NoteTaking','2022-11-01');
+      a)	INSERT INTO application_info (appId,app_description, app_name, created)VALUES ('rs2', 'NoteTaking', 'NoteTaking','2022-11-01');
   
   
-  b)	INSERT INTO ROLE (ROLEID,CREATED,ROLE_NAME,APPID)VALUES(‘1’,’2022-11-01’,’NoteTaking’,’rs2’);
+      b)	INSERT INTO ROLE (ROLEID,CREATED,ROLE_NAME,APPID)VALUES(‘1’,’2022-11-01’,’NoteTaking’,’rs2’);
   
   
 Steps to register a use and setting up a noter:
