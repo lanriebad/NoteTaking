@@ -39,5 +39,3 @@ https://www.getpostman.com/collections/15a58c92c2f049d24fe3
 
 this postman is available for api testing. While the frontend was built in angular and here is the url to access the login page       http://localhost:4200/
 
-
-![image](https://user-images.githubusercontent.com/30928317/200460182-f0a13a64-422a-46ad-ae14-fa2177d80b43.png)
