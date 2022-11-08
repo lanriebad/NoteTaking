@@ -8,8 +8,13 @@ One of the requirements is to make the application secured. However, Jason Web T
 Tables were created in other to get this started and the tables are: User (user_info), Application (Application_info), Role, Note, and Label table.
 Steps to profile an application:
 1.	You must have an applicationId and also a Role to have access below is sql example in profiling an application
+  
   a)	INSERT INTO application_info (appId,app_description, app_name, created)VALUES ('rs2', 'NoteTaking', 'NoteTaking','2022-11-01');
+  
+  
   b)	INSERT INTO ROLE (ROLEID,CREATED,ROLE_NAME,APPID)VALUES(‘1’,’2022-11-01’,’NoteTaking’,’rs2’);
+  
+  
 Steps to register a use and setting up a noter:
 
 1.	Create a User: A user must provide some details in other to get register to the application and the information are email(optional), name(required), password(required), username(required), surname(required).
